@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.wrap{
+				width:500px;
+				height:340px;
+				border:1px solid red;
+				position: relative;
+			}
+			.top{
+				width:500px;
+				height:215px;
+				/*这里要用背景图的形式插入，才有animation*/
+				background-image: url(img/paoku/bg_1.png);
+				position: absolute;
+				top:0;
+				-webkit-animation: sport 15s linear infinite; ;
+			}
+			
+			.middle{
+				width:500px;
+				height:231px;
+				background-image: url(img/paoku/bg_2.png);
+				position: absolute;
+				bottom:0;
+				-webkit-animation: sport 2s linear infinite; ;
+			}
+			
+			.bottom{
+				width:500px;
+				position: absolute;
+				bottom:0;
+			}
+			.bottom img{
+				width:500px;
+				height:58px;
+			}
+			.people{
+			  background-image: url(img/paoku/1.png);
+			  width: 123px;
+			  height:105px;
+			  position: absolute;
+			  bottom:60px;
+			  left:200px;
+			  -webkit-animation: people 2s linear infinite; ;
+			}
+			@-webkit-keyframes sport{
+				from{
+					background-position-x: 0;
+				}
+				to{
+					background-position-x: -500px;
+				}
+			}
+			@-webkit-keyframes people{
+				0%{
+					background-image: url(img/paoku/1.png);
+				}
+				9%{
+					background-image: url(img/paoku/2.png);
+				}
+				18%{
+					background-image: url(img/paoku/3.png);
+				}
+				27%{
+					background-image: url(img/paoku/4.png);
+				}
+				36%{
+					background-image: url(img/paoku/5.png);
+				}
+				45%{
+					background-image: url(img/paoku/6.png);
+				}
+				54%{
+					background-image: url(img/paoku/7.png);
+				}
+				63%{
+					background-image: url(img/paoku/8.png);
+				}
+				72%{
+					background-image: url(img/paoku/9.png);
+				}
+				81%{
+					background-image: url(img/paoku/10.png);
+				}
+				90%{
+					background-image: url(img/paoku/11.png);
+				}
+				100%{
+					background-image: url(img/paoku/12.png);
+				}
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="top"></div>
+			<div class="middle"></div>
+			<div class="bottom">
+				<img src="img/paoku/bg.png"/>
+			</div>
+			<div class="people"></div>
+		</div>
+	</body>
+</html>
