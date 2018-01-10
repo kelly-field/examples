@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.wrap{
+				position: relative;
+				width:200px;
+				height:200px;
+				margin: 100px auto;
+				transform-style: preserve-3d;
+				animation: sport 10s alternate infinite;
+				
+			}
+	
+			.box{
+				width:200px;
+				height:200px;
+				text-align: center;
+				line-height: 200px;
+				font-size: 30px;
+				opacity: 0.5;
+				position: absolute;
+				top:0;
+				left:0;
+
+			}
+			.box1{
+				background-color: yellow;
+				-webkit-transform: translateZ(100px);
+			}
+			.box2{
+				background-color: pink;
+				-webkit-transform: translateZ(-100px);
+			}
+			.box3{
+				background-color: blue;
+				-webkit-transform:translateX(100px) rotateY(90deg) ;
+			}
+			.box4{
+				background-color: orange;
+				-webkit-transform: translateX(-100px) rotateY(90deg) ;
+			}
+			.box5{
+				background-color: green;
+				-webkit-transform:translateY(100px) rotateX(90deg) ;
+			}
+			.box6{
+				background-color: palevioletred;
+				-webkit-transform:translateY(-100px) rotateX(90deg) ;
+			}
+			@-webkit-keyframes sport{
+				from{
+					transform: rotateX(0deg) rotateY(0deg);
+				}
+				to{
+					transform: rotateX(359deg) rotateY(359deg);
+					
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="box box1">1</div>
+			<div class="box box2">2</div>
+			<div class="box box3">3</div>
+			<div class="box box4">4</div>
+			<div class="box box5">5</div>
+			<div class="box box6">6</div>
+		</div>
+	</body>
+
+</html>
