@@ -1,0 +1,223 @@
+/*躯干部分*/
+@-webkit-keyframes body {
+		0% {
+			-webkit-transform: rotate(5deg) translate( 5px, 0px);
+		}
+		25% {
+			-webkit-transform: rotate(5deg) translate(-5px, -14px);
+		}
+		50% {
+			-webkit-transform: rotate(5deg) translate( 5px, 0px);
+		}
+		75% {
+			-webkit-transform: rotate(5deg) translate(-5px, -14px);
+		}
+		100% {
+			-webkit-transform: rotate(5deg) translate( 5px, 0px);
+		}
+	}
+	/*右手臂（26 ~ -20  ~ 26 )*/
+@-webkit-keyframes right-bicep {
+	
+		0% {
+			-webkit-transform: rotate(26deg);
+		}
+		
+		50% {
+			-webkit-transform: rotate(-20deg);
+		}
+		
+		100% {
+			-webkit-transform: rotate(26deg);
+		}
+	}
+	/*左手臂（-20 ~ 26  ~ -20 )*/
+	@-webkit-keyframes left-bicep {
+	
+		0% {
+			-webkit-transform: rotate(-20deg);
+		}
+		
+		50% {
+			-webkit-transform: rotate(26deg);
+		}
+		
+		100% {
+			-webkit-transform: rotate(-20deg);
+		}
+	}
+	/*右小手臂（-10 ~ -45  ~ -10）*/
+	@-webkit-keyframes right-forearm {
+	
+		0% {
+			-webkit-transform: rotate(10deg);
+		}
+		
+		50% {
+			-webkit-transform: rotate(-45deg);
+		}
+		
+		100% {
+			-webkit-transform: rotate(10deg);
+		}
+	}
+	/*左小手臂（-45 ~ -10  ~ -45）*/
+	@-webkit-keyframes left-forearm {
+	
+		0% {
+			-webkit-transform: rotate(-45deg);
+		}
+		
+		50% {
+			-webkit-transform: rotate(-10deg);
+		}
+		
+		100% {
+			-webkit-transform: rotate(-45deg);
+		}
+	}
+	/*右大腿（-45 ~ 10 ~ -45 ）*/
+@-webkit-keyframes right-thigh {
+	
+		0% {
+			-webkit-transform: rotate(-45deg);
+		}
+		
+		50% {
+			-webkit-transform: rotate(10deg);
+		}
+		
+		100% {
+			-webkit-transform: rotate(-45deg);
+		}
+	}
+	/*左大腿（10 ~ -45 ~ 10 ）*/
+	@-webkit-keyframes left-thigh {
+	
+		0% {
+			-webkit-transform: rotate(10deg);
+		}
+		
+		50% {
+			-webkit-transform: rotate(-45deg);
+		}
+		
+		100% {
+			-webkit-transform: rotate(10deg);
+		}
+	}
+	/*右小腿( 30 20 20 85 30 )*/
+	@-webkit-keyframes right-skin {
+	
+		0% {
+			-webkit-transform: rotate(30deg);
+		}
+		25% {
+			-webkit-transform: rotate(20deg);
+		}
+		50% {
+			-webkit-transform: rotate(20deg);
+		}
+		75% {
+			-webkit-transform: rotate(85deg);
+		}
+		100% {
+			-webkit-transform: rotate(30deg);
+		}
+	}
+	/*左小腿( 20 85 30 20 20 )*/
+	@-webkit-keyframes left-skin {
+	
+		0% {
+			-webkit-transform: rotate(20deg);
+		}
+		25% {
+			-webkit-transform: rotate(85deg);
+		}
+		50% {
+			-webkit-transform: rotate(30deg);
+		}
+		75% {
+			-webkit-transform: rotate(20deg);
+		}
+		100% {
+			-webkit-transform: rotate(20deg);
+		}
+	}
+	/*右脚：（ -5 ~ -7 ~ -16 ~ -10 ~ -5）*/
+	@-webkit-keyframes right-foot {
+	
+		0% {
+			-webkit-transform: rotate(-5deg);
+		}
+		25% {
+			-webkit-transform: rotate(-7deg);
+		}
+		50% {
+			-webkit-transform: rotate(-16deg);
+		}
+		75% {
+			-webkit-transform: rotate(-10deg);
+		}
+		100% {
+			-webkit-transform: rotate(-5deg);
+		}
+	}
+	
+	/*左脚：（ -16 ~ -10 ~ -5 ~ -7 ~ -16）*/
+	@-webkit-keyframes right-foot {
+	
+		0% {
+			-webkit-transform: rotate(-16deg);
+		}
+		25% {
+			-webkit-transform: rotate(-10deg);
+		}
+		50% {
+			-webkit-transform: rotate(-5deg);
+		}
+		75% {
+			-webkit-transform: rotate(-7deg);
+		}
+		100% {
+			-webkit-transform: rotate(-16deg);
+		}
+	}
+	/*右脚尖： （0 -10 -10 -25 0）*/
+	@-webkit-keyframes right-toes {
+	
+		0% {
+			-webkit-transform: rotate(0deg);
+		}
+		25% {
+			-webkit-transform: rotate(-10deg);
+		}
+		50% {
+			-webkit-transform: rotate(-10deg);
+		}
+		75% {
+			-webkit-transform: rotate(-25deg);
+		}
+		100% {
+			-webkit-transform: rotate(0deg);
+		}
+	}
+	/*左脚尖： （ -10 -25 0 -10 -10）*/
+	@-webkit-keyframes left-toes {
+	
+		0% {
+			-webkit-transform: rotate(-10deg);
+		}
+		25% {
+			-webkit-transform: rotate(-25deg);
+		}
+		50% {
+			-webkit-transform: rotate(0deg);
+		}
+		75% {
+			-webkit-transform: rotate(-10deg);
+		}
+		100% {
+			-webkit-transform: rotate(-10deg);
+		}
+	}

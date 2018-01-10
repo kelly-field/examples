@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.runningman {
+				margin-top: 100px;
+				margin-right: auto;
+				margin-left: 100px;
+				position: relative;
+			}
+			/*躯干*/
+			.body {
+				width: 86px;
+				height: 274px;
+				-webkit-animation: body 2s linear infinite;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 1;
+			}
+			/*右大手臂*/
+			.right-bicep {
+				width: 51px;
+				height: 124px;
+				-webkit-transform-origin: 27px 28px;
+				-webkit-animation: right-bicep 2s linear infinite;
+				position: absolute;
+				top: 92px;
+				left: 9px;
+				z-index: 6;
+			}
+			/*左大手臂*/
+			.left-bicep {
+				width: 52px;
+				height: 126px;
+				-webkit-transform-origin: 27px 28px;
+				-webkit-animation: left-bicep 2s linear infinite;
+				position: absolute;
+				top: 92px;
+				left: 9px;
+				z-index: -99;
+			}
+			/*右小手臂*/
+			.right-forearm {
+				width: 36px;
+				height: 121px;
+				-webkit-transform-origin: 20px 20px;
+				-webkit-animation: right-forearm 2s linear infinite;
+				position: absolute;
+				top: 100px;
+				left: 14px;
+				z-index: 9;
+			}
+			
+			/*左小手臂*/
+			.left-forearm {
+				width: 36px;
+				height: 121px;
+				-webkit-transform-origin: 10px 10px;
+				-webkit-animation: left-forearm 2s linear infinite;
+				position: absolute;
+				top: 100px;
+				left: 14px;
+				z-index: -99;
+			}
+			/*右大腿*/
+			.right-thigh {
+				width: 69px;
+				height: 144px;
+				-webkit-transform-origin: 10px 10px;
+				-webkit-animation: right-thigh 2s linear infinite;
+				position: absolute;
+				top: 250px;
+				left: 0px;
+				z-index: -5;
+			}
+			/*左大腿*/
+			.left-thigh {
+				width: 69px;
+				height: 144px;
+				-webkit-transform-origin: 10px 10px;
+				-webkit-animation: left-thigh 2s linear infinite;
+				position: absolute;
+				top: 250px;
+				left: 0px;
+				z-index: -99;
+			}
+			/*右小腿*/
+			.right-thigh .shin {
+				width: 53px;
+				height: 173px;
+				-webkit-transform-origin: 10px 10px;
+				-webkit-animation: right-skin 2s linear infinite;
+				position: absolute;
+				top: 100px;
+				left: 10px;
+				z-index: -99;
+			}
+			
+			/*左小腿*/
+			.left-thigh .shin {
+				width: 53px;
+				height: 173px;
+				-webkit-transform-origin: 10px 10px;
+				-webkit-animation: left-skin 2s linear infinite;
+				position: absolute;
+				top: 100px;
+				left: 10px;
+				z-index: -99;
+			}
+			/*右脚*/
+			.right-thigh .shin .foot {
+				width: 67px;
+				height: 34px;
+				-webkit-transform-origin: 26px 18px;
+				-webkit-animation: right-foot 2s linear infinite;
+				position: absolute;
+				top: 155px;
+				left: 0px;
+				z-index: 99;
+			}
+			/*左脚*/
+			.left-thigh .shin .foot {
+				width: 67px;
+				height: 34px;
+				-webkit-transform-origin: 26px 18px;
+				-webkit-animation: left-foot 2s linear infinite;
+				position: absolute;
+				top: 155px;
+				left: 0px;
+				z-index: 99;
+			}
+			/*右脚尖*/
+			.right-thigh .shin .foot .toes {
+				width: 28px;
+				height: 25px;
+				-webkit-transform-origin:0px 13px ;
+				-webkit-animation: right-toes 2s linear infinite;
+				position: absolute;
+				top: 8px;
+				left: 62px;
+				z-index: 99;
+			}
+			/*左脚尖*/
+			.left-thigh .shin .foot .toes {
+				width: 28px;
+				height: 25px;
+				-webkit-transform-origin:0px 13px ;
+				-webkit-animation: left-toes 2s linear infinite;
+				position: absolute;
+				top: 8px;
+				left: 62px;
+				z-index: 99;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/runningman.css" />
+	</head>
+
+	<body>
+		<div class="runningman">
+			<img class="body" src="img/torso.png" />
+			<div class="right-bicep">
+				<img src="img/right-bicep.png" />
+				<div class="right-forearm">
+					<img src="img/right-forearm.png" />
+				</div>
+			</div>
+			<div class="left-bicep">
+				<img src="img/left-bicep.png" />
+				<div class="left-forearm">
+					<img src="img/left-forearm.png" />
+				</div>
+			</div>
+			<div class="right-thigh">
+				<img src="img//right-thigh.png" />
+				<div class="shin">
+					<img src="img/shin.png" />
+					<div class="foot">
+						<img  src="img/foot.png" />
+						<div class="toes">
+							<img src="img/toes.png" />
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="left-thigh">
+				<img src="img//left-thigh.png" />
+				<div class="shin">
+					<img src="img/shin.png" />
+					<div class="foot">
+						<img  src="img/foot.png" />
+						<div class="toes">
+							<img src="img/toes.png" />
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</body>
+
+</html>
