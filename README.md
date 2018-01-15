@@ -1,3 +1,9 @@
+# canvas时钟
+ https://kelly123456789.github.io/homework/canvas时钟.html
+ 
+# pie饼形图
+ https://kelly123456789.github.io/homework/pie饼形图.html
+ 
 # homework
  https://kelly123456789.github.io/homework/
 
