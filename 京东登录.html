@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+		<style type="text/css">
+			html{
+				font-size: 100px;
+				font-size: calc(100vw/7.5);
+			}
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			p:first-child{
+				width: 100%;
+				height:0.9rem;
+				background-color:#f9f9f9;
+				line-height: 0.9rem;
+				font-size: 0.33rem;
+				box-sizing: border-box;
+				border-bottom: 1px solid #b6b6b6;
+			}
+			p:first-child i{
+				margin-left:0.35rem;
+				margin-right: 2.5rem;
+				
+			}
+			p:nth-child(2),p:nth-child(3),p:nth-child(4),p:nth-child(5){
+				width: 6.7rem;
+				height:0.95rem;
+				/*background-color: red;*/
+				line-height: 0.95rem;
+				font-size: 0.26rem;
+				color:#000;
+				font-weight: bold;
+				margin-left:0.35rem;
+				box-sizing: border-box;
+				border-bottom: 1px solid #b6b6b6;
+			}
+			p:nth-child(2) i,p:nth-child(3) i{
+				margin-left:1.8rem;
+				font-size: 0.44rem;
+				color:#d5d5d5;
+				
+			}
+			p:nth-child(2) input,p:nth-child(3) input,p:nth-child(4) input{
+				margin-left: 0.7rem;
+				border:0;
+				font-size: 0.26rem;
+			}
+			p:nth-child(4) input{
+				margin-left: 0.45rem;
+			}
+			p:nth-child(5) {
+				border-bottom: 0;
+				height:1.5rem;
+				padding-top: 0.6rem;
+				box-sizing: border-box;
+			}
+			p:nth-child(5) input{
+				border: 0;
+				height:0.9rem;
+				width:6.7rem;
+				font-size: 0.28rem;
+				background-color: #eee;
+			}
+			p:nth-child(6){
+				font-size: 0.28rem;
+				margin-left:0.35rem;
+				margin-top: 0.46rem;
+				height:0.38rem;
+				line-height: 0.38rem;
+				width:6.7rem;
+            }
+            p:nth-child(6) span{
+            	margin-right: 0.7rem;
+            }
+            p:nth-child(6) span:nth-of-type(3){
+            	margin-right: 0;
+            }
+			p:nth-child(6) i{
+            	margin-right: 0.1rem;
+            	font-size: 0.4rem;
+            	color:#ccc;
+            }
+            p:nth-child(6) i:first-of-type{
+            	color:#f23030;
+            }
+            p:nth-child(7){
+            	width:6.7rem;
+            	height:0.26rem;
+            	line-height: 0.26rem;
+            	font-size:0.26rem;
+            	color:#b6b8bb;
+            	font-weight: bold;
+            	margin-top:2rem ;
+            	margin-left:0.35rem;
+            }
+            p:nth-child(7) b{
+            	display: inline-block;
+            	width:2.2rem;
+            	height:0px;
+            	border-bottom:1px solid #b6b8bb;	
+            }
+            p:nth-child(7) b:first-of-type{
+            	margin-right: 0.25rem;
+            }
+            p:nth-child(7) b:nth-of-type(2){
+            	margin-left: 0.25rem;
+            }
+            p:nth-child(8){
+            	font-size:0.45rem;
+            	text-align: center;
+            	color:#4ea5ff;
+            	margin-top: 0.4rem;
+            }
+            p:nth-child(9){
+            	font-size:0.24rem;
+            	text-align: center;
+            	color:#1f2538;
+            	margin: 10px 0 3.2rem 0;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<form action="" method="post">
+			<p><i class="fa fa-angle-left"></i><span>京东登录</span></p>
+			<p>帐号<input type="text" name="" id="" value="" placeholder="用户名/邮箱/已验证手机"/><i class="fa fa-times-circle"></i></p>
+			<p>密码<input type="password" name="" id="" value="" placeholder="请输入密码"  /><i class="fa fa-eye-slash"></i></p>
+		    <p>验证码<input type="text" name="" id="" value="" placeholder="请输入验证码" /></p>
+		    <p><input type="submit" name="" id="" value="登录" /></p>
+		    <p><i class="fa fa-check-circle"></i><span>一个月内免登录</span><i class="fa fa-lock"></i><span>找回密码</span><i class="fa fa-mobile"></i><span>快速注册</span></p>
+		    <p><b></b>其他登陆方式<b></b></p>
+		    <p><i class="fa fa-qq"></i></p>
+		    <p>QQ</p>
+			</form>
+		    
+		</div>
+	</body>
+</html>
