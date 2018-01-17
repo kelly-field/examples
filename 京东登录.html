@@ -19,13 +19,14 @@
 				background-color:#f9f9f9;
 				line-height: 0.9rem;
 				font-size: 0.33rem;
+				font-weight: bold;
 				box-sizing: border-box;
 				border-bottom: 1px solid #b6b6b6;
 			}
 			p:first-child i{
 				margin-left:0.35rem;
 				margin-right: 2.5rem;
-				
+				font-size: 0.45rem;
 			}
 			p:nth-child(2),p:nth-child(3),p:nth-child(4),p:nth-child(5){
 				width: 6.7rem;
@@ -38,12 +39,22 @@
 				margin-left:0.35rem;
 				box-sizing: border-box;
 				border-bottom: 1px solid #b6b6b6;
+				position: relative;
 			}
 			p:nth-child(2) i,p:nth-child(3) i{
-				margin-left:1.8rem;
 				font-size: 0.44rem;
 				color:#d5d5d5;
-				
+				position: absolute;
+				top:0.4rem;
+				right:0.22rem;	
+			}
+			p:nth-child(3) i{
+				top:0.3rem;
+				right:0.18rem;
+			}
+			p input{
+				outline: none;
+				font-weight: bold;
 			}
 			p:nth-child(2) input,p:nth-child(3) input,p:nth-child(4) input{
 				margin-left: 0.7rem;
@@ -52,6 +63,9 @@
 			}
 			p:nth-child(4) input{
 				margin-left: 0.45rem;
+				width:3.8rem;
+				margin-right: 0.2rem;
+				border-right: 2px solid #d5d5d5;
 			}
 			p:nth-child(5) {
 				border-bottom: 0;
@@ -64,18 +78,21 @@
 				height:0.9rem;
 				width:6.7rem;
 				font-size: 0.28rem;
+				color:#8e9092;
 				background-color: #eee;
 			}
 			p:nth-child(6){
-				font-size: 0.28rem;
+				font-size: 0.24rem;
 				margin-left:0.35rem;
 				margin-top: 0.46rem;
 				height:0.38rem;
 				line-height: 0.38rem;
 				width:6.7rem;
+				color:#190407;
+				font-weight: bold;
             }
             p:nth-child(6) span{
-            	margin-right: 0.7rem;
+            	margin-right: 0.8rem;
             }
             p:nth-child(6) span:nth-of-type(3){
             	margin-right: 0;
@@ -130,8 +147,8 @@
 			<p><i class="fa fa-angle-left"></i><span>京东登录</span></p>
 			<p>帐号<input type="text" name="" id="" value="" placeholder="用户名/邮箱/已验证手机"/><i class="fa fa-times-circle"></i></p>
 			<p>密码<input type="password" name="" id="" value="" placeholder="请输入密码"  /><i class="fa fa-eye-slash"></i></p>
-		    <p>验证码<input type="text" name="" id="" value="" placeholder="请输入验证码" /></p>
-		    <p><input type="submit" name="" id="" value="登录" /></p>
+		    <p>验证码<input type="text" name="" id="" value="" placeholder="请输入验证码" /><img src="#"/></p>
+		    <p><input type="submit" name="" id="" value="登&nbsp;录" /></p>
 		    <p><i class="fa fa-check-circle"></i><span>一个月内免登录</span><i class="fa fa-lock"></i><span>找回密码</span><i class="fa fa-mobile"></i><span>快速注册</span></p>
 		    <p><b></b>其他登陆方式<b></b></p>
 		    <p><i class="fa fa-qq"></i></p>
